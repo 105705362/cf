@@ -8,3 +8,4 @@ applications:
       - config-server
     env:
       SPRING_PROFILES_ACTIVE: dev
+    path: ./target/cook-0.0.1-SNAPSHOT.jar
