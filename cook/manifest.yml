@@ -1,0 +1,10 @@
+---
+instances: 1
+memory: 1024M
+applications:
+  - name: steven_cook
+    host: steven_cookie
+    services:
+      - config-server
+    env:
+      SPRING_PROFILES_ACTIVE: dev
